@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\repositorios\\tarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\repositorios\\tarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\migrations\\20240410215019_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\migrations\\20240410215019_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\repositorios\\interfaces\\itarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\repositorios\\interfaces\\itarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\data\\map\\usuariomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\data\\map\\usuariomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITarefaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Repositorios\\Interfaces\\ITarefaRepositorio.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Repositorios\\Interfaces\\ITarefaRepositorio.cs",
+              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Repositorios\\Interfaces\\ITarefaRepositorio.cs",
+              "RelativeToolTip": "TaskSystem\\Repositorios\\Interfaces\\ITarefaRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T23:19:23.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TarefaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Repositorios\\TarefaRepositorio.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Repositorios\\TarefaRepositorio.cs",
+              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Repositorios\\TarefaRepositorio.cs",
+              "RelativeToolTip": "TaskSystem\\Repositorios\\TarefaRepositorio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T23:18:37.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "TaskSystem\\Controllers\\TarefaController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T23:13:44.062Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -38,41 +85,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "TaskSystem\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "TaskSystem\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAkwC8AAABIAAAA",
+              "DocumentIndex": 4,
+              "Title": "UsuarioMap.cs",
+              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Data\\Map\\UsuarioMap.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Data\\Map\\UsuarioMap.cs",
+              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Data\\Map\\UsuarioMap.cs",
+              "RelativeToolTip": "TaskSystem\\Data\\Map\\UsuarioMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T22:30:34.58Z",
+              "WhenOpened": "2024-04-10T22:54:58.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240410215019_InitialDB.cs",
-              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Migrations\\20240410215019_InitialDB.cs",
-              "RelativeDocumentMoniker": "TaskSystem\\Migrations\\20240410215019_InitialDB.cs",
-              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Migrations\\20240410215019_InitialDB.cs",
-              "RelativeToolTip": "TaskSystem\\Migrations\\20240410215019_InitialDB.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T21:50:19.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Program.cs",
               "RelativeDocumentMoniker": "TaskSystem\\Program.cs",
               "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Program.cs",
               "RelativeToolTip": "TaskSystem\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T21:47:20.001Z"
+              "WhenOpened": "2024-04-10T21:47:20.001Z",
+              "EditorCaption": ""
             }
           ]
         }
