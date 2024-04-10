@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Migrations\\20240410215019_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskSystem\\Migrations\\20240410215019_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\migrations\\20240410215019_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\migrations\\20240410215019_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2C248CE-2455-4641-B340-E9DEDE1BAE98}|TaskSystem\\TaskSystem.csproj|c:\\users\\isacv\\onedrive\\\u00E1rea de trabalho\\exercicioscsharp\\tasks\\tasksystem\\tasksystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "TaskSystem\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwC8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:30:34.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "20240410215019_InitialDB.cs",
               "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Migrations\\20240410215019_InitialDB.cs",
               "RelativeDocumentMoniker": "TaskSystem\\Migrations\\20240410215019_InitialDB.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\isacv\\OneDrive\\\u00C1rea de Trabalho\\exerciciosCSharp\\Tasks\\TaskSystem\\TaskSystem\\Program.cs",
               "RelativeDocumentMoniker": "TaskSystem\\Program.cs",
@@ -55,8 +72,7 @@
               "RelativeToolTip": "TaskSystem\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T21:47:20.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T21:47:20.001Z"
             }
           ]
         }
