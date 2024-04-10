@@ -1,6 +1,6 @@
 ﻿namespace TaskSystem.Models
 {
-    public class UsuarioModel
+    public class TarefasModel
     {
         public int Id { get; set; }
         public string? Nome { get; set; }

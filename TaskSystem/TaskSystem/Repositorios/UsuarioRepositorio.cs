@@ -14,26 +14,26 @@ namespace TaskSystem.Repositorios
             _dbContex = sistemaTarefasDBContex;
         }
 
-        public async Task<UsuarioModel> BuscaPorId(int id)
+        public async Task<TarefasModel> BuscaPorId(int id)
         {
             return await _dbContex.Usuarios.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task<List<UsuarioModel>> BuscaTodosUsuarios()
+        public async Task<List<TarefasModel>> BuscaTodosUsuarios()
         {
             return await _dbContex.Usuarios.ToListAsync();
         }
 
-        public async Task<UsuarioModel> AdicionarUsuario(UsuarioModel usuario)
+        public async Task<TarefasModel> AdicionarUsuario(TarefasModel usuario)
         {
-            _dbContex.Usuarios.Add(usuario);
-            _dbContex.SaveChanges();
-            return usuario;
+           await _dbContex.Usuarios.AddAsync(usuario);
+           await _dbContex.SaveChangesAsync();
+           return usuario;
         }
 
-        public async Task<UsuarioModel> AtualizarUsuario(UsuarioModel usuario, int id)
+        public async Task<TarefasModel> AtualizarUsuario(TarefasModel usuario, int id)
         {
-            UsuarioModel usuarioPesquisado = await BuscaPorId(id);
+            TarefasModel usuarioPesquisado = await BuscaPorId(id);
 
             if(usuarioPesquisado == null) 
             {
@@ -42,20 +42,20 @@ namespace TaskSystem.Repositorios
             usuarioPesquisado.Nome = usuario.Nome;
             usuarioPesquisado.Email = usuario.Email;
             _dbContex.Usuarios.Update(usuarioPesquisado);
-            _dbContex.SaveChanges();
+            await _dbContex.SaveChangesAsync();
             return usuarioPesquisado;
         }
 
         public async Task<bool> Apagar(int id)
         {
-            UsuarioModel usuarioParaApagar = await BuscaPorId(id);
+            TarefasModel usuarioParaApagar = await BuscaPorId(id);
             if (usuarioParaApagar == null)
             {
                 throw new Exception($"Usuário para o ID:{id} não foi encontrado.");
             }
 
             _dbContex.Usuarios.Remove(usuarioParaApagar);
-            _dbContex.SaveChanges();
+            await _dbContex.SaveChangesAsync();
             return true;
         }
 

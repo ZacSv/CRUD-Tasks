@@ -9,7 +9,7 @@ namespace TaskSystem.Controllers
     public class UsuarioController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<List<UsuarioModel>> ListaTodosUsuarios() 
+        public ActionResult<List<TarefasModel>> ListaTodosUsuarios() 
         {
             return Ok();
         }
