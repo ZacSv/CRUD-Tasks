@@ -14,26 +14,26 @@ namespace TaskSystem.Repositorios
             _dbContex = sistemaTarefasDBContex;
         }
 
-        public async Task<TarefasModel> BuscaPorId(int id)
+        public async Task<UsuarioModel> BuscaPorId(int id)
         {
             return await _dbContex.Usuarios.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task<List<TarefasModel>> BuscaTodosUsuarios()
+        public async Task<List<UsuarioModel>> BuscaTodosUsuarios()
         {
             return await _dbContex.Usuarios.ToListAsync();
         }
 
-        public async Task<TarefasModel> AdicionarUsuario(TarefasModel usuario)
+        public async Task<UsuarioModel> AdicionarUsuario(UsuarioModel usuario)
         {
            await _dbContex.Usuarios.AddAsync(usuario);
            await _dbContex.SaveChangesAsync();
            return usuario;
         }
 
-        public async Task<TarefasModel> AtualizarUsuario(TarefasModel usuario, int id)
+        public async Task<UsuarioModel> AtualizarUsuario(UsuarioModel usuario, int id)
         {
-            TarefasModel usuarioPesquisado = await BuscaPorId(id);
+            UsuarioModel usuarioPesquisado = await BuscaPorId(id);
 
             if(usuarioPesquisado == null) 
             {
@@ -48,7 +48,7 @@ namespace TaskSystem.Repositorios
 
         public async Task<bool> Apagar(int id)
         {
-            TarefasModel usuarioParaApagar = await BuscaPorId(id);
+            UsuarioModel usuarioParaApagar = await BuscaPorId(id);
             if (usuarioParaApagar == null)
             {
                 throw new Exception($"Usuário para o ID:{id} não foi encontrado.");

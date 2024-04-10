@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TaskSystem.Data.Map;
+using TaskSystem.Models;
 namespace TaskSystem.Data
 {
     public class SistemaTarefasDBContex : DbContext
@@ -9,7 +10,7 @@ namespace TaskSystem.Data
         {
         }
 
-        public DbSet<TarefasModel> Usuarios {  get; set; }
+        public DbSet<UsuarioModel> Usuarios {  get; set; }
         public DbSet<TarefasModel> Tarefas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

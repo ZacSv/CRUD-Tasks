@@ -4,13 +4,13 @@ namespace TaskSystem.Repositorios.Interfaces
 {
     public interface IUsuarioRepositorio
     {
-        Task<List<TarefasModel>> BuscaTodosUsuarios();
+        Task<List<UsuarioModel>> BuscaTodosUsuarios();
 
-        Task<TarefasModel> BuscaPorId(int id);
+        Task<UsuarioModel> BuscaPorId(int id);
 
-        Task<TarefasModel> AdicionarUsuario(TarefasModel usuario);
+        Task<UsuarioModel> AdicionarUsuario(UsuarioModel usuario);
 
-        Task<TarefasModel> AtualizarUsuario(TarefasModel usuario, int id);
+        Task<UsuarioModel> AtualizarUsuario(UsuarioModel usuario, int id);
 
         Task<bool> Apagar(int id);
 
